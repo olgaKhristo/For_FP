@@ -1,7 +1,28 @@
 
 body {
-    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+    font-family: sans-serif;
+    box-sizing: border-box;
 }
+.container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+span{
+    font-size: 6rem;
+    color: blue;    
+}
+
+h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
 
 img {
     border: 1px solid #ddd;
@@ -10,15 +31,22 @@ img {
     width: 150px;
 }
 
-
-
-
-label {
-    display: block;
-    font: 1rem 'Fira Sans', sans-serif;
+p{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
 }
+
+
+
 
 input,
 label {
+    font: 1 rem, 
     margin: 0.4rem 0;
+    
+    
 }
